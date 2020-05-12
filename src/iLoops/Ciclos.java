@@ -6,11 +6,11 @@ public class Ciclos {
 
 	public static void main(String[] args) {
 		//imprimir numeros del 0 al 10 (0  1  2  3  4  5  6  7  8  9  10)
-		int numero  = 0;
-		while(numero <= 10) {
+		int numero  = 20; //contador
+		while(numero <= 10) {  //condicion
 			Input.print(numero);
-			Input.print("  ");
-			numero += 1;
+			Input.print("  ");  //instrucciones
+			numero += 1;  //actualizacion del contador
 		}
 		Input.print("\n");
 		//imprimir la cuenta regresiva de un cohete,  cuando llegue a cero, diga 'despegar'

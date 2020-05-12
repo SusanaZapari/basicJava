@@ -24,3 +24,7 @@ Arcturus.charAt(0) imprimirlo
 etc...
 
 
+for(int i=0; i < s.length(); i ++) {
+char actual = s.charAt(i);
+}
+

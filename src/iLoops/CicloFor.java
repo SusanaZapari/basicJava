@@ -20,7 +20,7 @@ public class CicloFor {
 			
 		}
 		
-		for(int num = 10; num >= 0 ; num--) {
+		for(int num = 0; num <= 10 ; num +=1) {
 			
 			Input.print(num);
 			Input.print("  ");
