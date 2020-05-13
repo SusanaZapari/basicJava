@@ -104,7 +104,17 @@ public class Input {
 		
 	}
 
-
+	public static int get_positive_int_greater_than(int num)
+	{
+		int n;
+		do
+		{
+			System.out.print("n is ");
+			n = Input.get_int();
+		}
+		while (n <= num);
+		return n;
+	}
 
 
 }
